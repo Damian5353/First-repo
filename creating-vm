@@ -1,0 +1,5 @@
+import os 
+
+vm = ["Work-space" , "Test-script"]
+for item in vm
+      os.system(f"multipass launch --name {item}")
